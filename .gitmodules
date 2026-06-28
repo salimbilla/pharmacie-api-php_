@@ -1,0 +1,3 @@
+[submodule "lib/validation"]
+	path = lib/validation
+	url = https://github.com/salimbilla/php-validation-lib_.git
