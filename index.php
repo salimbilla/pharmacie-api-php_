@@ -13,8 +13,8 @@ $gestionStock->ajouterLot(
 $listeLots = $gestionStock->listerLots();
 
 foreach ($listeLots as $lot) {
-    echo "Code-barres : " . $lot['codeBarre']
-        . " | Expiration : " . $lot['dateExpiration']
+    echo "Code-barres : " . $lot['code']
+        . " | Expiration : " . $lot['expiration']
         . " | Quantité : " . $lot['quantite']
         . PHP_EOL;
 }
